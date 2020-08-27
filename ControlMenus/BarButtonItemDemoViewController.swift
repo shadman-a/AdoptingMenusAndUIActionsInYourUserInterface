@@ -68,7 +68,7 @@ class BarButtonItemDemoViewController: UIViewController {
         let revertAction = UIAction(title: "Revert", handler: menuHandler)
         self.toolbarItems = [
             UIBarButtonItem(systemItem: .save, primaryAction: saveAction, menu: saveMenu),
-            .fixedSpace(width:20.0),
+            .fixedSpace(20.0),
             UIBarButtonItem(image: optionsImage, menu: optionsMenu),
             .flexibleSpace(),
             UIBarButtonItem(primaryAction: revertAction)
