@@ -17,7 +17,7 @@ class BarButtonItemDemoViewController: UIViewController {
             UIView.addKeyframe(withRelativeStartTime: 0.0, relativeDuration: 0.2) {
                 self.eventExplainer.alpha = 1.0
             }
-            UIView.addKeyframe(withRelativeStartTime: 0.8, relativeDuration: 0.2) {
+            UIView.addKeyframe(withRelativeStartTime: 0.7, relativeDuration: 0.2) {
                 self.eventExplainer.alpha = 0.0
             }
         } completion: { _ in
